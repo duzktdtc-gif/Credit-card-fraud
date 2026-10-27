@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Dataset (150MB - vượt giới hạn 100MB của GitHub, tải từ Kaggle)
+data/creditcard.csv
+
+# OS
+Thumbs.db
+.DS_Store
