@@ -189,9 +189,3 @@ credit_card_fraud/
 - [ ] Tách code thành module `.py` + CLI để chạy lại toàn bộ thí nghiệm
 
 ---
-
-## Lưu ý
-
-- Dataset cực kỳ mất cân bằng (473 gian lận / 283,726 dòng) → **accuracy cao không có ý nghĩa**. Một model đoán "không gian lận" cho mọi giao dịch đã đạt 99.83%.
-- Chỉ số đáng quan tâm là **Recall** (bỏ sót gian lận) và **Precision** (làm phiền khách hàng), hoặc F1 để cân bằng hai phía.
-- `V1`–`V28` đã qua PCA nên không thể diễn giải trực tiếp; feature importance chỉ mang ý nghĩa thống kê.
